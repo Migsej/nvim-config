@@ -1,7 +1,8 @@
 vim.opt.hlsearch = true
+
 vim.keymap.set("n", "<C-c>", "<cmd>nohlsearch<CR>")
 
-vim.keymap.set({ "i", "v" }, "<Esc>", "")
+vim.keymap.set({ "i", "v" }, "<C-c>", "<esc>")
 
 vim.keymap.set("n", "<leader>x", "<cmd>Ex<CR>")
 
