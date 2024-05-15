@@ -4,8 +4,6 @@ vim.keymap.set("n", "<C-c>", "<cmd>nohlsearch<CR>")
 
 vim.keymap.set({ "i", "v" }, "<C-c>", "<esc>")
 
-vim.keymap.set("n", "<leader>x", "<cmd>Ex<CR>")
-
 vim.keymap.set("n", "<leader>j", "<cmd>cnext<CR>")
 vim.keymap.set("n", "<leader>k", "<cmd>cprev<CR>")
 
